@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Consultas</title>
+    <link rel="stylesheet" href="Teste.css">
+</head>
+
+<body>
+   <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Economize no plano, não na saúde.</div>
+                <div class="intro-heading">Planos de Saúde digitais, práticos e econômicos. Agende sua consulta hoje mesmo!</div>
+                <a href="#section1" class="page-scroll btn btn-xl">Conheça os planos</a>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="section cards">
+        <div class="container">
+            <div class="card">
+                <h3>Digital</h3>
+                <p>Faça tudo pelo App: consulte a carteirinha virtual, faça consultas online, renove receitas e muito mais.</p>
+            </div>
+            <div class="card">
+                <h3>Prático</h3>
+                <p>Desde a assinatura até agendamento de cirurgia, tudo é prático e sem burocracia.</p>
+            </div>
+            <div class="card">
+                <h3>Essencial</h3>
+                <p>Os planos têm exatamente o necessário para cuidar bem da sua saúde.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <h2>Conheça os planos</h2>
+            <img src="https://cuidarme.net.br/wp-content/uploads/2023/08/plano-max.png" alt="Planos">
+        </div>
+    </section>
+
+    <section class="section" id="section1">
+        <div class="container">
+            <h2>Saúde é coisa séria, não deixe para amanhã.</h2>
+            <p>Preencha o formulário e solicite uma cotação gratuita.</p>
+            
+                <div class="form-group">
+                    <div class="container">
+                        <h2>CRUD com Firebase</h2>
+                        <hr />
+                        <br />
+                        <div class="form">
+                          Número do CPF: <input type="number" name="RollNo" id="roll" /> <br /><br />
+                          Nome:&nbsp; <input type="text" name="name" id="name" /> <br /><br />
+                          Data de Nascimento: <input type="date" name="Edad" id="edad" /> <br /><br />
+                          Plano Desejado: <input type="text" name="Planes" id="planes" /> <br /><br />
+                        </div>
+                  
+                        <div class="buttons">
+                          <button id="insert">Inserir</button>
+                          <button id="read">Visualizar</button>
+                          <button id="update">Atualizar</button>
+                          <button id="delete">Excluir</button>
+                        </div>
+                      </div>
+                </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+    <script src="fireConfig.js"></script>
+
+    <script src="Myscript.js"></script> 
+
+         
+        </div>
+    </section>
+
+   
+</body>
+
+</html>
